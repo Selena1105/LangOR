@@ -1,0 +1,51 @@
+{
+  "objects": [
+    {
+      "label": "anaesthesia machine",
+      "caption": "",
+      "source_mask": "anaesthesia_machine.png",
+      "id": 0
+    },
+    {
+      "label": "drape",
+      "caption": "",
+      "source_mask": "drape.png",
+      "id": 1
+    },
+    {
+      "label": "instrument table",
+      "caption": "",
+      "source_mask": "instrument_table.png",
+      "id": 2
+    },
+    {
+      "label": "nurse",
+      "caption": "",
+      "source_mask": "nurse.png",
+      "id": 3
+    },
+    {
+      "label": "operating table",
+      "caption": "",
+      "source_mask": "operating_table.png",
+      "id": 4
+    },
+    {
+      "label": "patient",
+      "caption": "",
+      "source_mask": "patient.png",
+      "id": 5
+    },
+    {
+      "label": "surgeon",
+      "caption": "",
+      "source_mask": "surgeon.png",
+      "id": 6
+    }
+  ],
+  "background_id": 7,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "max_seq_length": 256,
+  "source": "/research/d2/gds/weili/semanticGS/3d_baseline/preprocess/data_public/004_010951/segmentations/camera05_colorimage-010951",
+  "overlap_policy": "error"
+}
